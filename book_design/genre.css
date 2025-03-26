@@ -8,13 +8,11 @@ body {
     color: #fff;
     padding-top: 70px;
 }
-
-/* Header */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #0f0f0f;
+    background: #0f0f0f; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,42 +21,45 @@ header {
     z-index: 1000;
 }
 
-/* Logo */
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #e74c3c;
 }
 
-/* Navigation */
-nav {
-    flex-grow: 1;
-    text-align: center;
-}
-
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #f1f1f1;
     font-size: 18px;
-    padding: 10px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
     color: #e74c3c;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.login-btn:hover {
+    background: #c0392b;
 }
 
 /* Book Container */
