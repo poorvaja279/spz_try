@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const pdfUrl = "pdf/the_deal_elle_kenedy.pdf";
+    const pdfUrl = "the_deal_elle_kenedy.pdf";
 
     document.getElementById("readNow").addEventListener("click", function () {
         window.open(pdfUrl, "_blank");
