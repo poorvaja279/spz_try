@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const pdfUrl = "pdf/ACOTAR.pdf";
+    const pdfUrl = "ACOTAR.pdf";
 
     document.getElementById("readNow").addEventListener("click", function () {
         window.open(pdfUrl, "_blank");
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "A Court Of Thorns And Roses",
             author: "Sarah J Maas",
             image: "https://tse4.mm.bing.net/th?id=OIP.3sIe21xgmAt4GWKdu2VgXQHaLX&pid=Api&P=0&h=220.jpg",
-            page: window.location.origin + "/book_info/ACOTAR.html" // Dynamic path
+            page: window.location.origin + "ACOTAR.html" // Dynamic path
         };
 
         if (!likedBooks.some(b => b.title === book.title)) {
